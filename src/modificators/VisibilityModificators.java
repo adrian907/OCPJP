@@ -13,16 +13,12 @@ public class VisibilityModificators {
 							// packages because of lack of access specificator.
 
 	protected int rescue; // It's visible only in package , but if class from
-							// different package extends class containing this field or method it has
+							// different package extends class containing this
+							// field or method it has
 							// access to the protected fields as well!
 
 	float nonInheritedMethod() {// The same as with fields above.
 		return -1.f;
-	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 	}
 
 }

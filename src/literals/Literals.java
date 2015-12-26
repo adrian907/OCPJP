@@ -29,8 +29,8 @@ public class Literals {
 	double N = 3.0E-1F; // Exponent can be E or e.
 	// When talking about decimal literals we need :
 	// -complete part OR decimal part;
-	// -one of : dot OR symbol and value of exponent OR letter of a type (f, F
-	// or D,d);
+	// -one of : dot OR symbol and value of exponent OR 
+	//letter of a type (f, F or D,d);
 
 	double O = 0x3p1;// hexadecimal floating point number.
 	double P = 0x2.3p0f;

@@ -1,6 +1,6 @@
 package package1;
 
-import package2.Interface1;
+import interfaces.Interface1;
 
 public enum Enum implements Interface1.Interface2.Interface3 {// We can't define
 																// enumeration

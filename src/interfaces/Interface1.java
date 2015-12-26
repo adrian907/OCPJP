@@ -1,8 +1,8 @@
-package package2;
+package interfaces;
 
-public abstract strictfp interface Interface1 { // Interface must be defined in
-												// its own file. Name should be
-												// an adjective
+public abstract strictfp interface Interface1 {
+	// Interface must be defined in its own file. Name should be
+	// an adjective. Can implement as many interfaces as needed.
 
 	public interface Interface2 { // Nested classes and interfaces are public
 									// and STATIC by
@@ -39,4 +39,3 @@ public abstract strictfp interface Interface1 { // Interface must be defined in
 	public enum E {
 	};
 }
-

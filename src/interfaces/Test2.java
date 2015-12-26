@@ -1,4 +1,4 @@
-package package2;
+package interfaces;
 
 strictfp class Class1 { // Class widoczna tylko w pakiecie
 	// class cannot be private or protected
@@ -37,10 +37,10 @@ abstract strictfp class Class2 { // "class abstract" will make an error. Order
 
 	abstract char mehod4();
 
-	int method4() { // there can be  non abstract method in abstract class
+	int method4() { // there can be non abstract method in abstract class
 		return -1;
 	}
-	
+
 	// static abstract int meth1(); Not allowed ! abstract method can be only
 	// public or protected, not even static,strictfp etc!
 }
@@ -57,11 +57,13 @@ public class Test2 implements Interface1 {
 		return 2;
 	}
 
-	public Double methodNumber() { // Signature doesn't have to be the same as
-									// in interface.
-									// Types must be just acceptable and
-									// exceptions are not obligatory.
+	public Double methodNumber() {
+		// Signature doesn't have to be the same as in interface.
+		// Types must be just acceptable and exceptions are not obligatory.
 		return 2.0;
 	}
 
+	Interface1 a = new Test2(); // It's allowed ! We can assign object of class
+								// implementing interface to interface's
+								// reference .
 }
