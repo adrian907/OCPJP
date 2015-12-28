@@ -52,4 +52,4 @@ public class JavaIO {
 // when reading from disk.
 
 // TITBIT : Source is called one of classes Reader, Writer,InputStream,
-// OutputStream. Last 2 of them are oly for byte streams. 
+// OutputStream. Last 2 of them are only for byte streams. 

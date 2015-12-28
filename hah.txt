@@ -1,0 +1,3 @@
+3.4
+Zapisze wszystko
+java.lang.Object@4c98385c
