@@ -7,7 +7,7 @@ public class Break_Continue {
 		for (System.out.println("sekcja 1."); condition(); System.out
 				.println("sekcja 3.")) {
 			System.out.println("cia³o pêtli");
-			if (i++> 0)
+			if (i++	> 0)//WORKS! 	
 				break;
 		}
 		System.out.println("po pêtli");

@@ -9,8 +9,7 @@ public class Switch {
 		switch (x) {// Statement x can also be sth to count, not just a
 					// variable.
 		// case 1: // b³¹d – dwa warianty dla tej samej wartoœci
-		// System.out.println("jeden");
-		// break;
+		// System.out.println("jeden");		break;
 
 		case 1: // b³¹d – dwa warianty dla tej samej wartoœci
 			System.out.println("one");
