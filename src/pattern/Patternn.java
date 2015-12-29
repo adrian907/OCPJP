@@ -11,7 +11,6 @@ import java.util.regex.Pattern;
  * . - any sign
  * 
  * 
- * 
  * a[b-eg]f - first sign is a , later any from b to e or g, the last is f.
  * + - preceding sign can occur more than once.
  * * - given sign can occur not even once . 
